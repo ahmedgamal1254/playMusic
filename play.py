@@ -39,7 +39,7 @@ class musicPorgram:
 
     def getDirectory(self):
         return os.getcwd()
-play=musicPorgram(input("enter path folder :- "))
+play=musicPorgram(input("enter path folder like ==> D:\ملفات\أغانى :- "))
 while True:
     val=input("press enter to change music :- ")
     if val != 'exit':
